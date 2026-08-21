@@ -421,12 +421,52 @@ export default function App() {
           </button>
 
           <div className={`note${letterOpen ? " is-open" : ""}`} aria-hidden={!letterOpen}>
-            <p className="note__hi">Mi amor,</p>
+            <p className="note__hi">Kors, digo, Mi Kors</p>
             <p>
-              Placeholder: escribe aquí tu carta real — un recuerdo, una
-              promesa, o simplemente gracias por quedarte.
+              Aún no dimensiono cómo ha pasado el tiempo, desde el primer día
+              que te vi, hasta un día como hoy, ya después de haber puesto ambos
+              de nuestro tiempo, esfuerzo y amor para construir una relación
+              durante 6 meses. Tal vez te parece mucho, pero para mí es poquito,
+              muy poquito, es muy poquito porque contigo no me imagino pasando
+              un año o solo un par de años de mi vida y dejándolo como una
+              anécdota más, contigo quiero todo, todo a su tiempo y todo
+              disfrutando de cada parte del proceso, pero realmente siento que lo
+              puedo tener todo contigo, y que puedo ofrecerte tener todo
+              conmigo.
             </p>
-            <p className="note__bye">Con todo, tu chimuelo ♥</p>
+            <p>
+              Siempre pensé que para amar a alguien debía soportar cosas que me
+              incomodan o no van conmigo solo porque “Así es la vida”, pero
+              contigo he aprendido que no es así, se puede tener a alguien que
+              simplemente encaje a la perfección, obviamente con todas las
+              personas hay discusiones y momentos de no estar de acuerdo en
+              todo, pero eso no hace que tenga que soportar algo que no quiero,
+              solo por no perderte. Y eso me hace estar seguro de que quiero
+              seguir descubriéndote y descubriendo de qué somos capaces juntos,
+              como un equipo, el mejor equipo.
+            </p>
+            <p>
+              Cambiaste mi forma de ver y entender el amor de pareja en muchas
+              cosas, situaciones y perspectivas, y lo más valioso para mí a lo
+              largo de este camino ha sido que a pesar de que ninguno es
+              perfecto, ambos queremos siempre ser mejores para el otro, y a
+              pesar de lo que podamos estar pasando un día, por más gallitos de
+              pelea que parezcamos, sé que vas a estar ahí para mí si lo
+              necesito, y quiero recordarte que yo estaré para ti, sin importar
+              nada.
+            </p>
+            <p>
+              Por último quiero desearnos unos maravillosos y felices 6 meses,
+              por todo el trabajo que hemos puesto detrás de ello, para que
+              siempre vayamos a más y mejor en nuestras vidas, y sigamos con
+              nuestros caminos alineados para lograr todo eso que hemos soñado,
+              hablado y planeado en{" "}
+              <strong>NUESTRO</strong> futuro.
+            </p>
+            <p className="note__bye">
+              Te amo como no tienes una idea, amor de mi vida.{" "}
+              <Heart className="note__heart-purple" />
+            </p>
           </div>
         </section>
 
